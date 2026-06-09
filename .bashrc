@@ -123,5 +123,8 @@ fi
 
 # Add key if not already loaded
 if ! ssh-add -l > /dev/null 2>&1; then
-    ssh-add ~/.ssh/id_ed25519WSL
+    ssh-add ~/.ssh/DesktopWSLKey
 fi
+
+alias vim='nvim'
+
